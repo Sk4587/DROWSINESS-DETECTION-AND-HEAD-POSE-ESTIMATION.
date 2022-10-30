@@ -55,5 +55,8 @@ There are three coordinate systems in play here. The 3D coordinates of the vario
 
 By using dlib , facial landmarks can be recognised and by using facial points around the eye ,rectangles around the eye can be made using opencv.Then the rectangle part is cropped and processed using opencv to detect the eyeball. By using the function “HoughCircles” in opencv , circular eyeballs are detected. It first applied an edge detector in the image, from which it make contours and from the contours made it tried to calculate a “circularity ratio”, i.e., how much that contour looks like a circle.
 
+## CONCLUSION:
+
+Python Application which performs Drowsiness Detection and Head Pose estimation has been made with great accuracy. This Project can ensure safety of drivers and restrict drivers to drive only a few hours per day. It can bring a new revolution in Rating System of drivers.
 
 
