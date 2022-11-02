@@ -8,15 +8,15 @@ The next goal is to find the pose of an object when we have a calibrated camera,
 ## USING CODE
 ### INSTALL INSTRUCTIONS
 
-* Download or clone the repository.
-* Download and install anaconda from [here](https://docs.anaconda.com/anaconda/install/windows/)
-* After installation open anaconda prompt.
-* Create a new python environment called 'drowsinessdetection' and activate the environment using the commands below
+1. Download or clone the repository.
+2. Download and install anaconda from [here](https://docs.anaconda.com/anaconda/install/windows/)
+3. After installation open anaconda prompt.
+4. Create a new python environment called 'drowsinessdetection' and activate the environment using the commands below
 ```console
 conda create -n drowsinessdetection
 conda activate drowsinessdetection
 ```
-* install the necessary python packages
+5. install the necessary python packages
 
 ```console
 pip install numpy
@@ -24,14 +24,14 @@ pip install opencv-python
 pip install pygame
 pip install scipy
 ```
-* In the same environment, install dlib using
+6. In the same environment, install dlib using
 ```console
 conda install -c conda-forge dlib
 ```
 
 ### RUN INSTRUCTIONS
-* Navigate to the repository folder in anaconda prompt
-* Run the program using
+1. Navigate to the repository folder in anaconda prompt
+2. Run the program using
  ```console
 python DrowsinessDetector.py
 ```
