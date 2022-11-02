@@ -14,6 +14,15 @@ The next goal is to find the pose of an object when we have a calibrated camera,
 conda create -n drowsinessdetection
 conda activate drowsinessdetection
 ```
+* install the necessary python packages
+
+```console
+pip install numpy
+pip install opencv-python
+pip install pygame
+pip install scipy
+```
+
 
 
 ## NEED FOR DROWSINESS DETECTION
