@@ -6,7 +6,9 @@ The webcam gets the image of the driver and by using Dlib and opencv , facial la
 The next goal is to find the pose of an object when we have a calibrated camera, and we know the locations of n 3D points on the object and the corresponding 2D projections in the image and this can be achieved by the Perspective n Point method.
 
 ## USING CODE
+### INSTALL INSTRUCTIONS
 
+* Download or clone the repository.
 * Download and install anaconda from [here](https://docs.anaconda.com/anaconda/install/windows/)
 * After installation open anaconda prompt.
 * Create a new python environment called 'drowsinessdetection' and activate the environment using the commands below
@@ -22,8 +24,20 @@ pip install opencv-python
 pip install pygame
 pip install scipy
 ```
+* In the same environment, install dlib using
+```console
+conda install -c conda-forge dlib
+```
 
-
+### RUN INSTRUCTIONS
+* Navigate to the repository folder in anaconda prompt
+* Run the program using
+ ```console
+python DrowsinessDetector.py
+```
+Note: The program busses an alarm if the eyes are closed for more than 2 seconds or blinks more than 7 times in a 20 seconds time frame.
+* Press 'r' to snooze an alarm
+* Press 'q' to quit the program
 
 ## NEED FOR DROWSINESS DETECTION
 In the busy moving world , safety is of very high priority. In 2018, drowsiness or sleepiness was a factor for 2.5 percent of drivers and motorcycle operators involved in fatal crashes. The main aim of this project is to monitor the driver . The project is about detecting the drowsy state and alerting the driver.
