@@ -230,8 +230,10 @@ while(True):            #infinite Loop
          #black=cv2.resize(black,(640,480))
          en=time.time()
          print('For_Frame',i,"FPS=",1/(en-st))
-         cv2.imshow('drowsiness',black)
-         cv2.imshow('frame',frame)
+         #cv2.imshow('drowsiness',black)
+         #cv2.imshow('frame',frame)
+         finalFrame= np.hstack((frame,black))
+         cv2.imshow("Drowsiness Detector",finalFrame)
          k=cv2.waitKey(1)
          if(alarm_flag==1):
                  pygame.mixer.music.play(-1)
